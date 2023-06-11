@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+  <title>Floor Plan</title>
+
+  <style>
+
+    /* Set the size of the floor plan container */
+
+    #floorPlan {
+
+      width: 550px;
+
+      height: 550px;
+
+      border: 1px solid #000;
+
+      position: relative;
+
+    }
+
+    /* Set the dimensions of the rooms */
+
+    .room {
+
+      position: absolute;
+
+      background-color: #ccc;
+
+    }
+
+    /* Define specific room dimensions */
+
+    .room.frontage {
+
+      width: 200px;
+
+      height: 200px;
+
+      top: 50px;
+
+      left: 50px;
+
+    }
+
+    .room.depth {
+
+      width: 300px;
+
+      height: 450px;
+
+      top: 50px;
+
+      left: 250px;
+
+    }
+
+  </style>
+
+</head>
+
+<body>
+
+  <div id="floorPlan">
+
+    <div class="room frontage"></div>
+
+    <div class="room depth"></div>
+
+  </div>
+
+</body>
+
+</html>
+
